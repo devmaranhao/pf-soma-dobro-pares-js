@@ -2,6 +2,8 @@
 
 import * as math from './math.js';
 
-const numeros = [1, 2, 3, 4, 5, 6]; // escolha os números que desejar 
-console.log('Soma usando a abordagem funcional:', math.somaDobroNumerosParesFuncional(numeros))
-console.log('Soma usando a abordagem estrutural (procedural):', math.somaDobroNumerosParesProcedural(numeros))
+const vetor1 = [1, 2, 3, 4, 5, 6];
+const vetor2 = [7, 8, 9];
+
+console.log('Soma usando a abordagem funcional:', math.somaDobroNumerosParesFuncional(vetor1))
+console.log('Soma usando a abordagem estrutural (procedural):', math.somaDobroNumerosParesProcedural(vetor2))
